@@ -2,7 +2,9 @@
   <dictionary name="Cesar">
     <words>
       <w>aritmeticos</w>
+      <w>longitud</w>
       <w>operadores</w>
+      <w>temperatura</w>
     </words>
   </dictionary>
 </component>
