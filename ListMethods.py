@@ -18,7 +18,7 @@
 conteo = 0
 numbers = [5,2,5,8,0,9,2,1,5,7,4,4]
 numbers.sort()
-
+#Mi respuesta
 for numero in numbers:
     conteo = numbers.count(numero)
     print(f'El número: {numero} aparece: {conteo} veces en la lista')
@@ -29,6 +29,12 @@ for numero in numbers:
         print(f'El número: {numero} aparece: {conteo} veces en la lista')
 print(numbers)
 
+#Respuesta Original
+uniques= []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
 
 
 
